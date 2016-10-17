@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<module version="4">
+  <component name="NewModuleRootManager" inherit-compiler-output="false">
+    <orderEntry type="sourceFolder" forTests="false" />
+    <orderEntry type="module-library">
+      <library name="PHP">
+        <CLASSES>
+          <root url="file:///var/www/drupal8/core/includes" />
+          <root url="file:///var/www/drupal8/core/lib" />
+          <root url="file:///var/www/drupal8/core/modules" />
+          <root url="file:///var/www/drupal8/core/themes" />
+          <root url="file:///var/www/drupal8/modules" />
+          <root url="file:///var/www/drupal8/themes" />
+          <root url="file:///var/www/drupal8/vendor" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES>
+          <root url="file:///var/www/drupal8/core/includes" />
+          <root url="file:///var/www/drupal8/core/lib" />
+          <root url="file:///var/www/drupal8/core/modules" />
+          <root url="file:///var/www/drupal8/core/themes" />
+          <root url="file:///var/www/drupal8/modules" />
+          <root url="file:///var/www/drupal8/themes" />
+          <root url="file:///var/www/drupal8/vendor" />
+        </SOURCES>
+      </library>
+    </orderEntry>
+  </component>
+</module>
