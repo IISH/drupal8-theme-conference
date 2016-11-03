@@ -38,6 +38,11 @@ a:link, a:visited {
     text-decoration: underline;
 }
 
+.button:first-child, .image-button:first-child {
+    margin-left: 1em;
+    margin-right: 1em;
+}
+
 /* Color styling */
 
 #menu, #footer-wrapper {
