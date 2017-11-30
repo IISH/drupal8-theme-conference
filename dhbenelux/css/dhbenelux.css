@@ -5,6 +5,7 @@ body {
 }
 
 #header {
+    width: 100%;
     height: auto;
 }
 
@@ -12,7 +13,6 @@ body {
 	float: left;
 	width: 100%;
 	background-color: #ea3325;
-	xxxborder: 5px solid pink;
 }
 
 div.logo {
@@ -32,7 +32,37 @@ div.logo {
 
 .content {
 	margin-top: 0;
-	margin-bottom: 0;
+}
+
+#header .content {
+    margin-bottom: 0;
+}
+
+#menu {
+    width: 100%;
+    padding-bottom: 10px;
+}
+
+#nav {
+    float: none;
+}
+
+#nav .menu {
+    float: none;
+    margin-bottom: 0;
+    text-align: center;
+}
+
+#nav .menu li {
+    float: none;
+    display: inline-block;
+}
+
+#nav .menu a {
+    margin-left: 10px;
+    margin-right: 13px;
+    padding-left: 0;
+    padding-right: 0;
 }
 
 .form-textarea-wrapper textarea {
@@ -71,10 +101,6 @@ a:link, a:visited {
 #nav .menu a,
 #nav .menu a:visited {
     color: #fff;
-	margin-left: 10px;
-	margin-right: 13px;
-	padding-left: 0px;
-	padding-right: 0px;
 }
 
 #nav .menu li li,
@@ -143,30 +169,4 @@ ul.pager li.pager-current,
 
 h2.site-name a {
     color: #000;
-}
-
-/* Added by Kerim */
-
-#header {
-    width: 100%;
-}
-
-#menu {
-    width: 100%;
-    padding-bottom: 10px;
-}
-
-#nav {
-    float: none;
-}
-
-#nav .menu {
-    float: none;
-    margin-bottom: 0;
-    text-align: center;
-}
-
-#nav .menu li {
-    float: none;
-    display: inline-block;
 }
