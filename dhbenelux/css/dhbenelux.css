@@ -1,9 +1,5 @@
 /* DH Benelux styling */
 
-body {
-    background: #fff;
-}
-
 #header {
     width: 100%;
     height: auto;
@@ -12,7 +8,12 @@ body {
 #logo-wrapper {
 	float: left;
 	width: 100%;
-	background-color: #ea3325;
+}
+
+#footer-wrapper {
+    border: none;
+    border-radius: 3px;
+    padding: 5px;
 }
 
 div.logo {
@@ -80,8 +81,16 @@ a:link, a:visited {
 
 /* Color styling */
 
+body {
+    background: #fff;
+}
+
+#logo-wrapper {
+    background-color: #ea3325;
+}
+
 #menu {
-    background: #ea3325; /* For browsers that do not support gradients */
+    background: #ea3325;
     -webkit-box-shadow: none;
     -moz-box-shadow: none;
     box-shadow: none;
@@ -89,9 +98,6 @@ a:link, a:visited {
 
 #footer-wrapper {
     color: #fff;
-    border: none;
-    border-radius: 3px;
-    padding: 5px;
 }
 
 #nav .menu li {
@@ -115,9 +121,10 @@ a:link, a:visited {
 #nav .menu li.active-trail li a.is-active,
 #nav .menu li li:hover,
 #nav .menu li li li:hover {
-    background: #ffd56b;
+    background: #ea3325;
 }
 
+#nav .menu li a,
 #nav .menu li a:hover,
 #nav .menu li:first-child a:hover,
 #nav .menu li a.is-active,
@@ -126,7 +133,7 @@ a:link, a:visited {
 #nav .menu li.active-trail:first-child,
 #nav .menu li.active-trail a.is-active,
 #nav .menu li.active-trail:first-child a.is-active {
-    background: #ea3325; /* For browsers that do not support gradients */
+    background: #ea3325;
 }
 
 #nav .menu a:hover {
