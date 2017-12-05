@@ -46,6 +46,7 @@ div.logo {
 
 #nav {
     float: none;
+    margin: 0;
 }
 
 #nav .menu {
