@@ -1,5 +1,10 @@
 /* Historici styling */
 
+label {
+    display: inline-block;
+    width: 80px;
+}
+
 #header {
     height: auto;
 }
@@ -74,6 +79,8 @@ body {
 #nav .menu a,
 #nav .menu a:visited {
     color: #fff;
+    padding-left: 25px !important;
+    padding-right: 25px !important;
 }
 
 #nav .menu li li,
