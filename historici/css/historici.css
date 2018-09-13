@@ -57,11 +57,11 @@ body {
 }
 
 #menu, #footer-wrapper {
-    background: #f8b000; /* For browsers that do not support gradients */
-    background: -webkit-linear-gradient(#f8b000, #ffd770); /* For Safari 5.1 to 6.0 */
-    background: -o-linear-gradient(#f8b000, #ffd770); /* For Opera 11.1 to 12.0 */
-    background: -moz-linear-gradient(#f8b000, #ffd770); /* For Firefox 3.6 to 15 */
-    background: linear-gradient(#f8b000, #ffd770); /* Standard syntax */
+    background: #34905f; /* For browsers that do not support gradients */
+    background: -webkit-linear-gradient(#34905f, #67c392); /* For Safari 5.1 to 6.0 */
+    background: -o-linear-gradient(#34905f, #67c392); /* For Opera 11.1 to 12.0 */
+    background: -moz-linear-gradient(#34905f, #67c392); /* For Firefox 3.6 to 15 */
+    background: linear-gradient(#34905f, #67c392); /* Standard syntax */
 
     -webkit-box-shadow: 1px 2px 3px -1px rgba(0, 0, 0, 0.75);
     -moz-box-shadow: 1px 2px 3px -1px rgba(0, 0, 0, 0.75);
@@ -73,7 +73,7 @@ body {
 }
 
 #nav .menu li {
-    border-right: 1px solid #ffc533;
+    border-right: 1px solid #34905f;
 }
 
 #nav .menu a,
@@ -95,7 +95,7 @@ body {
 #nav .menu li.active-trail li a.is-active,
 #nav .menu li li:hover,
 #nav .menu li li li:hover {
-    background: #ffd56b;
+    /*background: #4eaa79;*/
 }
 
 #nav .menu li a,
@@ -107,11 +107,11 @@ body {
 #nav .menu li.active-trail:first-child,
 #nav .menu li.active-trail a.is-active,
 #nav .menu li.active-trail:first-child a.is-active {
-    background: #f8b000; /* For browsers that do not support gradients */
-    background: -webkit-linear-gradient(#f8b000, #ffd770); /* For Safari 5.1 to 6.0 */
-    background: -o-linear-gradient(#f8b000, #ffd770); /* For Opera 11.1 to 12.0 */
-    background: -moz-linear-gradient(#f8b000, #ffd770); /* For Firefox 3.6 to 15 */
-    background: linear-gradient(#f8b000, #ffd770); /* Standard syntax */
+    background: #34905f; /* For browsers that do not support gradients */
+    background: -webkit-linear-gradient(#34905f, #67c392); /* For Safari 5.1 to 6.0 */
+    background: -o-linear-gradient(#34905f, #67c392); /* For Opera 11.1 to 12.0 */
+    background: -moz-linear-gradient(#34905f, #67c392); /* For Firefox 3.6 to 15 */
+    background: linear-gradient(#34905f, #67c392); /* Standard syntax */
 }
 
 #nav .menu ul {
