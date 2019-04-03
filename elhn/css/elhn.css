@@ -160,5 +160,9 @@ h2.site-name a {
 , #menu a:hover
 , #menu a:active
 {
-	color: white;
+	color: white !important;
+}
+
+#footer-wrapper {
+	color: white !important;
 }
